@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+nav ul{
+    background-color: rgba(25, 0, 139, 0.973);
+    font-family: "Arial";
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+a{
+    color: white;
+}
+li{
+    width: 95%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.heading{
+    margin-top: 1rem;
+}
+.cards{
+    width: 25%;
+    background-color: blue;
+    margin: 40px;
+    display: inline-block;
+    box-shadow: 2px 2px 10px black;
+}
+.image img{
+    width: 100%;
+    border-radius: 5px;
+    height: 33vh;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+}
+.details{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.div-footer{
+    background-color: darkblue;
+    padding: 2rem 0.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-self: start;
+    gap: 0.5rem;
+}
+ul{
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap: 1rem;
+     padding-left: 2rem;
+}
+a{
+     color: white;
+     font-size: small;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap: 1rem;
+     display: inline-flex;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Open sans";
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 5vh;
+}
+.copyright__text p .socials{
+    padding-right: 2rem;
+    text-align: center;
+    gap: 0.5rem;
+    
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    text-align: center;
+}
+.socials li{
+    margin: 0 10px;
+    gap: 0.5rem;
+    align-items: center;
+}
+.social a{
+    color: white;
+}
+.social a i{
+    font-size: 1.1rem;
+    align-items: center;
+}
+.copyright__text{
+    text-align: center;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    font-size: small;
+}
+.footer-address {
+    font-style:normal;
+    font-size: smaller;
+    margin-bottom: 0.5rem ;
+}
